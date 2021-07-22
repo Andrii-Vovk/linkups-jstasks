@@ -17,5 +17,5 @@ class Calculator {
     }
 }
 
-var calculator = new Calculator();
+let calculator = new Calculator();
 console.log(calculator.add(10, 5));
