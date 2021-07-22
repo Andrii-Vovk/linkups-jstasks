@@ -1,7 +1,7 @@
 function trace(matrix) {
-  var sum = 0;
+  let sum = 0;
 
-  for (var i = 0; i < matrix.length; i++) {
+  for (let i = 0; i < matrix.length; i++) {
     sum += matrix[i][i];
   }
 

@@ -3,10 +3,7 @@ function sortIt(arr) {
 }
 
 function actualValue(a) {
-    if(a[0] === undefined) {
-        return a;
-    }
-    return a[0];
+    a[0] === undefined ? a : a[0];
 }
 
 console.log(sortIt([[3], 4, [2], [5], 1, 6]));

@@ -1,10 +1,7 @@
 function keysAndValues(obj) {
-  var keys = Object.keys(obj);
-  keys.sort();
-
-  var vals = [];
-
-  keys.forEach(item => vals.push(obj[item]));
+  const keys = Object.keys(obj).sort();
+  const vals = [];
+  keys.forEach((item) => vals.push(obj[item]));
   return [keys, vals];
 }
 

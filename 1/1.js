@@ -1,4 +1,4 @@
-var arr = [true, false, true, true, false]
+const arr = [true, false, true, true, false]
 
 console.log(countTrue(arr));
 
